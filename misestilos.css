@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-color: black;
+}
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color:;
+	margin: auto;
+}
+
+	header{
+	width: 1000px;
+	height: 200px;
+	
+	
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color: darkblue;
+
+}
+article{
+	width: 800px; /* Ancho completo de su contenedor padre */
+	height: 700px; /* Altura específica del artículo */
+	position: relative; /* Necesario para posicionar el video absolutamente dentro de este */
+	background-image: url(banners/m.png);
+	float: left;
+	background-color: blue;
+}
+  /* Estilos para el video */
+  article video {
+	position: absolute; /* Posiciona el video absolutamente dentro del artículo */
+	top: 0;
+	left: 0;
+	width: 100%; /* Hace que el video ocupe todo el ancho del artículo */
+	height: 100%; /* Hace que el video ocupe toda la altura del artículo */
+	object-fit: cover; /* Hace que el video cubra toda el área del artículo sin distorsión */
+	background-color: grey;
+  }
+
+  
+aside{
+	width: 200px;
+	height: 700px;
+	background-image: url(banners/n.png);
+	float: left;
+	background-color: initial;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color:lightblue;
+	float: left;
+}
+	nav a{
+		text-decoration: none;
+		color: inherit;
+		font-size: 20px;
+		font-family: tahoma;
+	}
+	nav li{
+		display: inline-block;
+		padding: 13px 25px;
+		box-shadow: 0px 0px 0px black;
+		color: white;
+	}
+	nav li:hover{
+		background-color: white;
+		color: black;
+		box-shadow: 3px 3px 20px white;
+		transition: 0.5s;
+	}
+
+	nav ul{
+		text-align: left;
+	}	  
+	/*redes sociales*/
+	.redes ul{
+		list-style: none;
+		text-align:initial;
+
+	}
+ .redes ul li{
+ 	display: inline-block;
+ }
+ .redes ul li img {
+ 	width: 30px;
+ }
+		transition: all 0,3s;
+	  }
+	.redes ul li{
+		display: inline-block;
+		height: 30px;
+		transition: all 0,5s ;
+	}  
+	  .redes ul li .google{
+	  	background-color: #000;
+	  }
+
+	  .redes ul li .face{
+	  	background-color: #000;
+	  }
+
+	  .redes ul li .instagram{
+	  	background-color: #000;
+	  }
+
+	  .redes ul li .x{
+	  	background-color:#000;
+	  }
+
+	  .redes ul li .whatsapp{
+	  	background-color:#000;
+	  }
+.redes ul li a: hover{
+	background-color:black;
+	box-shadow: 0 0 30px white;
